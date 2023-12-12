@@ -30,5 +30,5 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
-- env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
